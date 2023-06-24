@@ -19,13 +19,13 @@ suponemos que tenemos 3 pares de calcetines, sabiendo que cada par contiene dos 
 
 return n + 1;
 
-para poder completar el codigo a esto se tiene que comdifical la linea de 
+para poder completar el codigo a esto se tiene que modificar la linea de 
 
 FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w"); 
 
-ya que el codigo trabaja con entradas que le proporciona la pagina misma por lo que debemos remplazar on las siguientes lineas y adjuntar un archivo txt. con las entradas para poder recibir las salidas correspondientes 
+ya que el codigo trabaja con entradas que le proporciona la pagina misma por lo que debemos remplazar con las siguientes lineas y adjuntar un archivo txt. con las entradas para poder recibir las salidas correspondientes 
 
-FILE* input_file = fopen("input1.txt", "r");
+    FILE* input_file = fopen("input1.txt", "r");
     FILE* output_file = fopen("output1.txt", "w");
 
     if (input_file == NULL || output_file == NULL) {
